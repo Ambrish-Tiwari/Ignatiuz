@@ -1,0 +1,43 @@
+﻿body {
+    
+}
+.topSpace {
+    /*margin:29px 0px 0px 0px;*/
+    color:white;
+
+}
+.leftPanel{
+    background-image:url(images/left-side-green-background-with-shadow.png);
+    height:974px;
+}
+.rightPanel{
+    width:100%;
+    height:974px;
+}
+.appImageSize{
+    margin:53px 0px 0px 65px;
+    width:75%;
+}
+.companyLogo {
+    margin: 35% 0px 0px 23%;
+    width:208px;
+}
+.preview{
+    background-color:rgba(255, 255, 255, 0);
+    margin: 10% 0px 0px 13%;
+    width: 339px;
+    margin-bottom: 25px;
+    object-fit:fill;
+}
+.thumbSlider{
+    margin: 2px 0px 0px 16px;
+    height: 100px !important;
+    width: 424px;
+}
+.addObject{
+    margin: -70% 0px 0px 96%;
+    height: 974px;
+}
+.newObject {
+    margin: -97% 0px 0px 50%;
+}

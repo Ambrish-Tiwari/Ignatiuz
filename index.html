@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Object Recognition</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="custom.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <link href="javascript/bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <script src="javascript/bxslider/jquery.bxslider.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="javascript/konva.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.bxslider').bxSlider({
+                minSlides: 3,
+                maxSlides: 3,
+                slideWidth: 170,
+                slideMargin: 0,
+                //ticker: true,
+                //speed: 6000
+                
+            });
+        });
+    </script>
+    <script src="javascript/custom.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 leftPanel">
+                <div style="margin:29px 0px 0px 0px;">
+                    <div class="row">
+                        <div class="col-lg-3 topSpace">Decos: 0</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 topSpace">Touch: 0</div>
+                    </div>
+                 </div>
+                <div class="row appImageSize">
+                   <img alt="deco" src="images/left-side-upper-logo-deco.png" class="img-responsive" /> 
+                </div>
+                <div class="row">
+                    <div class="preview">
+                        <img alt="deco" src="images/rightpanel/Big-Image-01.png" class="img-responsive" />
+                    </div>
+                </div>
+                <div class="thumbSlider">
+                    <ul class="bxslider" style="height:150px; width:200px;">
+                        <li><img src="/images/rightpanel/Big-Image-01.png" style="height:100px;width:200px;" /></li>
+                        <li><img src="/images/rightpanel/Big-Image-02.png" style="height:100px;width:200px;" /></li>
+                        <li><img src="/images/rightpanel/Big-Image-03.png" style="height:100px;width:200px;" /></li>
+                        <li><img src="/images/rightpanel/Big-Image-04.png" style="height:100px;width:200px;" /></li>
+                    </ul>
+                </div>
+                <div class="row companyLogo">
+                    <img alt="deco" src="images/left-side-lower-logo-tp-link-white.png" class="img-responsive" />
+                </div>
+             </div>
+            <div class="col-lg-9">
+                <div>
+                    <img alt="deco" src="images/rightpanel/Floor-Plan-01.png" class="img-responsive" />
+                    <div class="addObject" id="AddObject">
+                        <img src="images/circle-add.png" alt="Add" />
+                    </div>
+                </div>
+                <div id="container">
+                </div> 
+                <!--<canvas id="myCanvas" class="rightPanel"></canvas>-->
+            </div>
+            
+            
+        </div>
+    </div>
+</body>
+
+</html>
